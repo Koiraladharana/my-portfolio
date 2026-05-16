@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    background-color: var(--background-color);
+    height:4em;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h3{
+    color:rgb(74, 74, 228);
+    margin-left: 25px;
+}
+.nav-right-section{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: var(--text-color);
+}
+.button{
+    margin-right: 15px;
+    height:26px;
+    width: 70px;
+    border-color: blue;
+    color:blue;
+    border-radius: 6px;
+}
