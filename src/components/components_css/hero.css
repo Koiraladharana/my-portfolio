@@ -1,0 +1,77 @@
+.hero-section{
+    display: flex;
+    max-width:100vw;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    height: 45vh;
+    padding-left:25px;
+    padding-right:15px;
+    gap:5px;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+.left-available-btn button{
+    height: 30px;
+    width: 140px;
+    border: 1px solid blue;
+    color: blue;
+    background-color: var(--text-color);
+    border-radius: 24px;
+
+}
+.left-name p{
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    margin-top:15px;
+}
+.left-skill p{
+    font-size:13px;
+    color:var(--text-color);
+    margin-top: 15px;
+}
+.left-skill-div{
+    margin-top:7px;
+}
+.spann{
+    color: rgb(54, 54, 209);
+}
+.left-btn{
+    display:flex;
+    margin-top:15px;
+}
+.view-btn{
+    height: 40px;
+    width: 100px;
+    border:1px solid blue;
+    border-radius: 8px;
+    color:white;
+    background-color: #6366f1;
+} 
+.download-btn{
+    height: 40px;
+    width: 100px;
+    margin-left:10px;
+    border:1px solid black;
+    border-radius: 8px;
+    color:var(--text-color);
+    background-color: rgba(0, 0, 0, 0.863);
+}
+.avatar-circle{
+    border-radius: 50%;
+    border: 4px solid #6366f1;
+    background-color: var(--background-color);
+    height: 120px;
+    width: 120px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6366f1; 
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  
+}
+.hero-right h1{
+    color:blue;
+}
