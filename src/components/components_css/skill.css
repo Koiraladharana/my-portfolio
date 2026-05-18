@@ -1,0 +1,64 @@
+.skill-section {
+    background-color: rgba(0, 0, 0, 0.863);
+    margin-top: 1px;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+    max-height: fit-content;
+}
+
+.skill-section h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #f0f0f0;
+    margin-bottom: 32px;
+}
+
+.skill-section span {
+    color: #3636D1;
+}
+
+.skill-section h4 {
+    font-size: 11px;
+    color: #6c63ff;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.frontend-btn, .backend-btn, .tools-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.frontend-btn button {
+    border: 1px solid #2a2a2a;
+   font-size: 12px;
+    padding: 5px 14px;
+    border-radius: 99px;
+    border-color: #3c3480;
+    color: #9d96f5;
+    background: #1a1830;
+}
+
+.backend-btn button {
+    border: 1px solid #2a2a2a;
+    font-size: 12px;
+    padding: 5px 14px;
+    border-radius: 99px;
+    border-color: #0f4030;
+    color: #5dcaa5;
+    background: #0d2018;
+}
+.tools-btn button{
+    border: 1px solid #2a2a2a;
+    border-color: #3a2800;
+    color: #ef9f27;
+    background: #1e1500;
+     font-size: 12px;
+    padding: 5px 14px;
+    border-radius: 99px;
+}
