@@ -2,10 +2,10 @@
     display: flex;
     max-width:600px;
     width: 100%;
-    height: auto;
-    max-height: fit-content;
+    height:60px ;
+    max-height: 350px;
     justify-content: space-around;
-    padding-right: 15px;
+    padding-right: 10px;
     background-color: var(--background-color);
     align-items: center;
     justify-content: space-between;
@@ -22,8 +22,9 @@
 }
 .nav-list ul{
     display: flex;
-    gap:10px;
+    gap:8px;
     justify-content: center;
+    font-size: smaller;
     align-items: center;
     list-style: none;
     color: var(--text-color);
