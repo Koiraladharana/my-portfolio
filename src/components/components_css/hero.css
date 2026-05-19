@@ -77,3 +77,134 @@
 .hero-right h1{
     color:blue;
 }
+
+/* Tablet (601px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .hero-section {
+        max-width: 100%;
+        height: 50vh;
+        padding-left: 40px;
+        padding-right: 30px;
+        gap: 20px;
+    }
+
+    .left-available-btn button {
+        height: 33px;
+        width: 155px;
+        font-size: 0.9rem;
+    }
+
+    .left-name p {
+        font-size: xx-large;
+        margin-top: 18px;
+    }
+
+    .left-skill p {
+        font-size: 14px;
+        margin-top: 18px;
+    }
+
+    .view-btn, .download-btn {
+        height: 42px;
+        width: 115px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+
+    .view-btn:hover {
+        opacity: 0.85;
+        transform: translateY(-2px);
+    }
+
+    .download-btn:hover {
+        background-color: #1a1a1a;
+        transform: translateY(-2px);
+    }
+
+    .avatar-circle {
+        height: 140px;
+        width: 140px;
+        font-size: 3rem;
+    }
+}
+
+/* Desktop (1025px and above) */
+@media (min-width: 1025px) {
+    .hero-section {
+        max-width: 100%;
+        height: 60vh;
+        padding-left: 80px;
+        padding-right: 60px;
+        gap: 40px;
+        justify-content: space-between;
+    }
+
+    .left-available-btn button {
+        height: 36px;
+        width: 165px;
+        font-size: 0.95rem;
+        cursor: pointer;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .left-available-btn button:hover {
+        background-color: blue;
+        color: white;
+    }
+
+    .left-name p {
+        font-size: 2.8rem;
+        margin-top: 20px;
+        line-height: 1.2;
+    }
+
+    .left-skill p {
+        font-size: 1rem;
+        margin-top: 20px;
+        line-height: 1.6;
+    }
+
+    .left-btn {
+        margin-top: 25px;
+        gap: 12px;
+    }
+
+    .view-btn {
+        height: 45px;
+        width: 130px;
+        font-size: 0.95rem;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .view-btn:hover {
+        background-color: #4f52d9;
+        transform: translateY(-3px);
+    }
+
+    .download-btn {
+        height: 45px;
+        width: 130px;
+        font-size: 0.95rem;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .download-btn:hover {
+        background-color: #1a1a1a;
+        transform: translateY(-3px);
+    }
+
+    .avatar-circle {
+        height: 180px;
+        width: 180px;
+        font-size: 3.8rem;
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    .avatar-circle:hover {
+        box-shadow: 0 0 30px rgba(99, 102, 241, 0.5);
+        transform: scale(1.05);
+    }
+}

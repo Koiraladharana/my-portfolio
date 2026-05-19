@@ -2,7 +2,7 @@ import './components_css/project.css'
 
 function Project() {
     return (
-        <div className='project-section'>
+        <div className='project-section' id='projects'>
             <h2>My <span>Projects</span></h2>
 
             <div className='project-container'>

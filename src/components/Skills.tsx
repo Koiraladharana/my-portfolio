@@ -2,7 +2,7 @@ import './components_css/skill.css'
 
 function Skill(){
     return (
-        <div className="skill-section">
+        <div className="skill-section" id='skills'>
             <h2>MY <span>Skills</span></h2>
 
             <h4>FRONTEND</h4>

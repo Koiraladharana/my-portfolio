@@ -1,0 +1,153 @@
+.contact-sec{
+    height:auto;
+    max-height: fit-content;
+    background-color: rgba(0, 0, 0, 0.863);
+    padding:20px 0 20px 25px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1px;
+}
+.contact-sec h2{
+    color:white;
+    font-size: large;
+}
+.contact-sec span{
+    color: #3636D1;
+}
+.contact-left{
+   color:var(--text-color);
+   margin-top:20px;
+}
+.contact-left h6{
+    color:rgb(165, 64, 165);
+    margin-bottom: 15px;
+}
+.a-link{
+    margin-bottom: 15px;
+}
+.a-link a{
+    color:rgb(165, 64, 165);
+}
+input{
+    width:auto;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: rgb(190, 190, 171);
+}
+.send-btn{
+    width:125px;
+    height:35px;
+    border-radius: 8px;
+    border:1px solid blue;
+    color:white;
+    background: #6c63ff;
+    transition: background 0.3s ease;
+    margin:10px 15px 10px 90px;
+}
+.send-btn:hover {
+    cursor: pointer;
+        background: #1b0de0;
+    }
+
+/* Tablet(601 - 1024 px)*/
+
+@media(min-width: 601px)  and (max-width: 1024px){
+    .contact-sec{
+        max-width: 100%;
+        padding:30px 0 30px 40px;
+    }
+    .contact-sec h2{
+        font-size: x-large;
+}
+   .content-left{
+    margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+   }
+   .contact-left h6 {
+        font-size: 1rem;
+        margin-bottom: 18px;
+    }
+
+    .a-link {
+        margin-bottom: 18px;
+    }
+
+    input {
+        width: 250px;
+        height: 35px;
+        margin-bottom: 8px;
+        margin-right: 12px;
+    }
+
+    .send-btn {
+        width: 140px;
+        height: 40px;
+        margin: 12px 15px 12px 120px;
+    }
+}
+
+/* Desktop (1025px and above) */
+@media (min-width: 1025px) {
+    .contact-sec {
+        max-width: 100%;
+        padding: 50px 60px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1;
+    }
+
+    .contact-sec h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .contact-left {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+    }
+
+    .contact-left h6 {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+        grid-column: 1 / -1; /* spans full width */
+    }
+
+    .a-link {
+        margin-bottom: 20px;
+    }
+
+    .a-link a {
+        font-size: 1rem;
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+
+    .a-link a:hover {
+        color: #6c63ff;
+    }
+
+    input {
+        width: 300px;
+        height: 40px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        padding: 0 12px;
+        font-size: 0.95rem;
+    }
+
+    .send-btn {
+        width: 150px;
+        height: 45px;
+        font-size: 1rem;
+        margin: 15px 0 15px 0;
+        cursor: pointer;
+    }
+}

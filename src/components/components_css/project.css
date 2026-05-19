@@ -73,3 +73,112 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+/* Tablet (601px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .project-section {
+        max-width: 100%;
+        padding-bottom: 35px;
+    }
+
+    .project-section h2 {
+        font-size: x-large;
+        margin-left: 30px;
+        padding-top: 25px;
+    }
+
+    .project-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* 2 cards per row */
+        gap: 20px;
+        width: 93%;
+        margin-top: 35px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .project-card {
+        padding: 20px;
+    }
+
+    .project-card.featured {
+        grid-column: 1 / -1; /* featured card spans full width */
+    }
+
+    .btn {
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #3636D1;
+        color: white;
+        border-color: #3636D1;
+    }
+}
+
+/* Desktop (1025px and above) */
+@media (min-width: 1025px) {
+    .project-section {
+        max-width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .project-section h2 {
+        font-size: 2rem;
+        margin-left: 50px;
+        padding-top: 40px;
+    }
+
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+        gap: 24px;
+        width: 92%;
+        margin-top: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .project-card {
+        padding: 28px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+
+    .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 24px rgba(54, 54, 209, 0.2);
+        border-color: #3636D1;
+    }
+
+    .project-card.featured {
+        grid-column: 1 / -1; /* featured card spans full width */
+        flex-direction: row;  /* content side by side inside */
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+    .project-card h3 {
+        font-size: 1.6rem;
+    }
+
+    .project-card p {
+        font-size: 1rem;
+    }
+
+    .tag {
+        font-size: 0.85rem;
+        padding: 5px 12px;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 8px 20px;
+        transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #3636D1;
+        color: white;
+        border-color: #3636D1;
+    }
+}
