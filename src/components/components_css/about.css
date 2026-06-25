@@ -57,12 +57,12 @@
     }
 
     .about-title h2 {
-        font-size: x-large;
+        font-size: xx-large;
         margin-left: 35px;
     }
 
     .about-detail {
-        font-size: 0.97rem;
+        font-size: 1.5rem;
         line-height: 1.7;
         margin: 20px 80px 20px 35px;
     }

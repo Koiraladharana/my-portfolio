@@ -11,7 +11,6 @@ function Skill(){
             <button>CSS</button>
             <button>JavaScript</button>
             <button>React</button>
-            <button>TypeScript</button>
             <button>Tailwind</button>
             </div>
 
@@ -20,7 +19,7 @@ function Skill(){
                 <button>Node.js</button>
                 <button>Express</button>
                 <button>REST APIs</button>
-                <button>SQL</button>
+                <button>MongoDB</button>
             </div>
 
             <h4>TOOLS</h4>

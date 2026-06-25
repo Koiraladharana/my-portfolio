@@ -8,14 +8,12 @@ function Hero() {
                 <button>Available For Work</button>
             </div>
 
-            {/* ❌ div inside p is invalid — use span */}
             <div className='left-name'>
                 <p>Hi, I'm <span className='spann'>Dharana</span> <span>Koirala</span></p>
             </div>
 
-            {/* ❌ div inside p is invalid — use span */}
             <div className='left-skill'>
-                <p>Full Stack Developer · React · Node.js · TypeScript</p>
+                <p>Full Stack Developer · React · Node.js · Express · MongoDB</p>
                 <span className='left-skill-div'>Building clean, fast, and scalable web applications.</span>
             </div>
 

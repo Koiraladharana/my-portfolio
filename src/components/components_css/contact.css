@@ -28,29 +28,6 @@
 .a-link a{
     color:rgb(165, 64, 165);
 }
-input{
-    width:auto;
-    height: 30px;
-    margin-bottom: 5px;
-    margin-right: 8px;
-    border-radius: 8px;
-    border: 1px solid black;
-    background-color: rgb(190, 190, 171);
-}
-.send-btn{
-    width:125px;
-    height:35px;
-    border-radius: 8px;
-    border:1px solid blue;
-    color:white;
-    background: #6c63ff;
-    transition: background 0.3s ease;
-    margin:10px 15px 10px 90px;
-}
-.send-btn:hover {
-    cursor: pointer;
-        background: #1b0de0;
-    }
 
 /* Tablet(601 - 1024 px)*/
 
@@ -76,19 +53,6 @@ input{
     .a-link {
         margin-bottom: 18px;
     }
-
-    input {
-        width: 250px;
-        height: 35px;
-        margin-bottom: 8px;
-        margin-right: 12px;
-    }
-
-    .send-btn {
-        width: 140px;
-        height: 40px;
-        margin: 12px 15px 12px 120px;
-    }
 }
 
 /* Desktop (1025px and above) */
@@ -109,7 +73,7 @@ input{
     .contact-left {
         margin-top: 30px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
         align-items: start;
     }

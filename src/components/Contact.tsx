@@ -19,18 +19,6 @@ function Contact(){
                     <a href='https://www.linkedin.com/in/dharana-koirala-7b030431a/' target='tag'>Dharana</a>
                 </div>
             </div>
-            <div className='contact-right'>
-                <div>
-                   <input type="text" name='name' placeholder='Your name' />
-                   <input type="email" name='email' placeholder='Your email'/>
-                </div>
-                <div>
-                    <input type="text" name='message' placeholder='your message...' />
-                </div>
-                <div>
-                    <button className='send-btn'>Send Message</button>
-                </div>
-            </div>
             </div>
         </div>
     )
