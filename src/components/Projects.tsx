@@ -1,6 +1,6 @@
 import './components_css/project.css'
-import movieImg from '../assets/movie.JPG'
-import profile from '../assets/pro.JPG'
+import movieImg from '../assets/movie.jpg'
+import profile from '../assets/pro.jpg'
 
 interface Project {
     id: number
